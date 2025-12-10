@@ -1,0 +1,43 @@
+Create a file directory that you want to put this project 
+
+this is how the file locations should look
+
+Main file ||
+          \/
+            app.py
+            plot_plane_wing.py
+            
+            another folder still in the Main file
+                                                ||
+                                                \/
+                                                  index.html
+
+
+
+open terminal
+create a virtual enviornment in the file location
+
+ex:
+||
+\/
+
+cd C:\Users\mysau\Desktop\Wing_GPT
+py -3 -m venv .venv
+.venv\Scripts\activate
+
+
+INSTALL ALL OF THESE BELOW
+
+||
+\/
+
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+import re
+import logging
+from openai import OpenAI
+from flask import Flask, request, jsonify, render_template
+
+
+
