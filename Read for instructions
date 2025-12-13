@@ -31,12 +31,10 @@ INSTALL ALL OF THESE BELOW
 ||
 \/
 
-import numpy as np
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-import re
-import logging
-from openai import OpenAI
+pip install numpy
+pip install matplotlib
+pip install matplotlib --upgra
+pip install openai
 from flask import Flask, request, jsonify, render_template
 
 
