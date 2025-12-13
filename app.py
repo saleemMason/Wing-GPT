@@ -1,4 +1,4 @@
- import logging
+import logging
 from openai import OpenAI
 from flask import Flask, request, jsonify, render_template
 
